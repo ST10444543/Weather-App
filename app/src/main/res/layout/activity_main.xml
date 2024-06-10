@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/etTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Temperature"
+        android:inputType="numberDecimal"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAddTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Temperature"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCalculcAve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Average"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvAverageTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Average Temperature will be shown here"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnViewDet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Details"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/tvAveTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="20sp"
+        tools:ignore="InvalidId" />
+
+</LinearLayout>
+
+
